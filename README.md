@@ -1,27 +1,28 @@
-House Property Sales Analysis
-The retail industry now heavily relies on data analytics tools to better estimate the prices of different properties. Work on this project idea deals with analyzing the sales of house properties in a city in Australia.
+# House Property Sales Analysis
 
-Dataset: The House Property Sales dataset on Kaggle contains a file named ‘raw_sales.csv.’ It includes the following variables:
+## Overview  
+The retail industry increasingly relies on data analytics tools to estimate property prices accurately. This project analyzes house property sales in an Australian city using SQL and data exploration techniques.
 
-Datesold: The date when an owner sold the house to a buyer.
+## Dataset  
+The **House Property Sales** dataset on Kaggle contains the file `raw_sales.csv` with the following variables:  
 
-Postcode: 4 digit postcode of the suburb where the owner sold the property.
+| Column    | Description |
+|-----------|-------------|
+| `Datesold` | Date when the property was sold |
+| `Postcode` | 4-digit postcode of the suburb |
+| `Price`    | Sale price of the property |
+| `Bedrooms` | Number of bedrooms |
 
-Price: Price for which the owner sold the property.
+## Project Goals  
+1. Perform initial SQL exploration to understand the dataset scale.  
+2. Answer key analytical questions to uncover sales patterns.  
 
-Bedrooms: Number of bedrooms.
+### Key Questions  
+1. **Which date had the highest number of sales?**  
+2. **Which postcode has the highest average sale price?** *(Use aggregate functions)*  
+3. **Which year had the lowest number of sales?**  
+4. **Deduce the top 6 postcodes by annual price using window functions.**  
 
-SQL Project Idea: First, use basic commands in SQL to get a feel of the scale of the numbers involved in the dataset. After that, answer the questions mentioned below to learn more about the patterns in the dataset.
-
-Which date corresponds to the highest number of sales?
-
-Find out the postcode with the highest average price per sale? (Using Aggregate Functions)
-
-Which year witnessed the lowest number of sales?
-
-Use the window function to deduce the top six postcodes by year's price.
-
-
-https://www.kaggle.com/datasets/htagholdings/property-sales
-
-https://www.kaggle.com/code/aurygabrielawestcott/house-property-sales-analysis/notebook
+## Resources  
+- [Dataset on Kaggle](https://www.kaggle.com/datasets/htagholdings/property-sales)  
+- [Example Notebook](https://www.kaggle.com/code/aurygabrielawestcott/house-property-sales-analysis/notebook)  
